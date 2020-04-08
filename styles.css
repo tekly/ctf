@@ -1,8 +1,16 @@
+/*
+* 100ping!attack CTF Team Site
+* Made by Ivan Petrov (LazyTechwork)
+* vk.com/ipetrovofficial / github.com/lazytechwork
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&family=Ubuntu:wght@300;700&display=swap');
+
 *, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: monospace;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 html, body {
@@ -26,13 +34,18 @@ a {
     color: #ffb900;
 }
 
-h1,h2,h3,h4,h5,h6 {margin-bottom: 1em;font-weight: bold;}
+h1, h2, h3, h4, h5, h6 {margin-bottom: 0.75em;font-weight: bold; font-family: 'Ubuntu', sans-serif;}
 
 h1 {font-size: 3rem;}
+
 h2 {font-size: 2.5rem;}
+
 h3 {font-size: 2.3rem;}
+
 h4 {font-size: 2rem;}
+
 h5 {font-size: 1.8rem;}
+
 h6 {font-size: 1.5rem;}
 
 p {font-size: 1.3rem;}
@@ -45,6 +58,11 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.whitespace {
+    margin: 50px 0;
 }
 
 .header-logo {
@@ -54,8 +72,14 @@ header {
     margin-bottom: 4em;
 }
 
-.bdt {
-    border-top: 5px solid #191959;
+hr {
+    border-radius: 0.5em;
+    border: 0.25em solid #191959;
+    margin-bottom: 50px;
+}
+
+.main {
+    height: 100%;
 }
 
 .container {
