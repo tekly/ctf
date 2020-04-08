@@ -12,9 +12,18 @@ html, body {
     color: #ffffff;
 }
 
+body::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #191959;
+    border-radius: 0.25em;
+}
+
 a {
     text-decoration: none;
-    color: inherit;
+    color: #ffb900;
 }
 
 h1,h2,h3,h4,h5,h6 {margin-bottom: 1em;font-weight: bold;}
@@ -45,17 +54,20 @@ header {
     margin-bottom: 4em;
 }
 
-main {
+.bdt {
+    border-top: 5px solid #191959;
+}
+
+.container {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
-    border-top: 5px solid #191959;
     padding: 100px 350px;
 }
 
 @media (max-width: 768px) {
-    main {
+    .container {
         padding: 25px 15px;
     }
 }
