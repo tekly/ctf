@@ -47,7 +47,7 @@ h5 {font-size: 1.8rem;}
 
 h6 {font-size: 1.5rem;}
 
-p {font-size: 1.3rem;}
+p {font-size: 1.3rem; margin-bottom: .5em;}
 
 header {
     width: 100%;
@@ -112,6 +112,45 @@ hr {
     margin-right: 10px;
 }
 
+.ctf-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ctf-badge {
+    text-align: center;
+    width: 32%;
+    padding: 37px 13px;
+    border: 2px solid #ffffff;
+    border-radius: 0.5em;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.3rem;
+    margin: 1em 0.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctf-header {
+    margin-bottom: 0.54em;
+}
+
+.ctf-name {
+    color: #ffb900;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ctf-date {
+    color: #ffd159;
+    font-size: 0.65em;
+}
+
+.ctf-result {
+    font-size: 1.6em;
+}
+
 @media (max-width: 1200px) {
     .container {
         padding: 75px 100px;
@@ -121,6 +160,13 @@ hr {
 @media (max-width: 992px) {
     .container {
         padding: 75px 50px;
+    }
+    .ctf-grid {
+        display: block;
+    }
+    .ctf-badge {
+        width: 100%;
+        margin: 1em 0;
     }
 }
 
