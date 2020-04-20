@@ -114,18 +114,19 @@ hr {
 
 .ctf-grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .ctf-badge {
     text-align: center;
-    width: 32%;
+    width: 30%;
     padding: 37px 13px;
     border: 2px solid #ffffff;
     border-radius: 0.5em;
     font-family: 'Ubuntu Mono', monospace;
     font-size: 1.3rem;
-    margin: 1em 0.5em;
+    margin: 0.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
