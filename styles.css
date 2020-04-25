@@ -148,8 +148,14 @@ hr {
     font-size: 0.65em;
 }
 
+.ctf-statistics {
+    color: #ffd159;
+    font-size: 0.7em;
+}
+
 .ctf-result {
     font-size: 1.6em;
+    margin-bottom: 0.5em;
 }
 
 @media (max-width: 1200px) {
@@ -162,9 +168,11 @@ hr {
     .container {
         padding: 75px 50px;
     }
+
     .ctf-grid {
         display: block;
     }
+
     .ctf-badge {
         width: 100%;
         margin: 1em 0;
